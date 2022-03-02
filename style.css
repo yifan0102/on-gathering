@@ -1,0 +1,114 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  font-size: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  width: 80%;
+  font-size: 1px;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 25%;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img:hover {
+  width: 150%;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 1px;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p:hover {
+  font-size: 1px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page {
+  min-height: 100vh;
+  width: 50%;
+  font-size: 1px;
+  padding: 2px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scroll-wrapper {
+  height: 100vh;
+  overflow-y: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scroll-container {
+  /* text-align: center; */
+
+  /* animation properties */
+  -moz-animation: my-animation 500s linear infinite;
+  -webkit-animation: my-animation 500s linear infinite;
+  animation: my-animation 500s linear infinite;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateY(0);
+  }
+  to {
+    -moz-transform: translateY(-100%);
+  }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(-100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  to {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+
+.jsFunction {
+  margin-left: auto;
+  margin-right: auto;
+}
