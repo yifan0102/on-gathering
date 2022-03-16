@@ -29,6 +29,7 @@ img {
   padding: 2px;
   margin-left: auto;
   margin-right: auto;
+  filter: grayscale(100%);
 }
 
 img:hover {
@@ -57,13 +58,13 @@ p:hover {
 
 @keyframes color-change {
   0% {
-    color: #f0f8ff;
+    color: blue;
   }
   50% {
-    color: #faebd7;
+    color: red;
   }
   100% {
-    color: #00ffff;
+    color: black;
   }
 }
 .page {
@@ -78,7 +79,7 @@ p:hover {
 
 .scroll-wrapper {
   height: 100vh;
-  overflow-y: hidden;
+  overflow-y: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -95,7 +96,7 @@ p:hover {
 }
 
 /* for Firefox */
-@-moz-keyframes my-animation {
+/* @-moz-keyframes my-animation {
   from {
     -moz-transform: translateY(0);
   }
@@ -105,14 +106,14 @@ p:hover {
 }
 
 /* for Chrome */
-@-webkit-keyframes my-animation {
+/* @-webkit-keyframes my-animation {
   from {
     -webkit-transform: translateY(0);
   }
   to {
     -webkit-transform: translateY(-100%);
   }
-}
+} */
 
 @keyframes my-animation {
   from {
