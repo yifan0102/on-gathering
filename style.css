@@ -40,7 +40,7 @@ img:hover {
 }
 
 p {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Arial";
   font-size: 1px;
   padding: 2px;
   margin-left: auto;
@@ -56,7 +56,7 @@ p:hover {
   animation: color-change 1s infinite;
 }
 
-@keyframes color-change {
+/* @keyframes color-change {
   0% {
     color: blue;
   }
@@ -66,7 +66,7 @@ p:hover {
   100% {
     color: black;
   }
-}
+} */
 .page {
   min-height: 100vh;
   width: 50%;
