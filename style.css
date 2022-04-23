@@ -5,6 +5,8 @@ html {
   box-sizing: border-box;
 }
 
+.none { cursor: none; }
+
 body {
   font-family: "Courier New", Courier, monospace;
   width: 100vw;
@@ -88,9 +90,9 @@ p:hover {
   /* text-align: center; */
 
   /* animation properties */
-  -moz-animation: my-animation 1000s linear infinite;
-  -webkit-animation: my-animation 1000s linear infinite;
-  animation: my-animation 1000s linear infinite;
+  -moz-animation: my-animation 2000s linear infinite;
+  -webkit-animation: my-animation 2000s linear infinite;
+  animation: my-animation 2000s linear infinite;
   margin-left: auto;
   margin-right: auto;
 }
